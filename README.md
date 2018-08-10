@@ -25,8 +25,8 @@ Country characteristics for each selected dispute originating country for the ye
 
 The analysis process for developing the model, progressing from top to bottom, was:
 
-[image](Images/Analysis_Process)
- 
+![image](Images/Analysis_Process.png)
+
 **Jupyter Notebooks**  
 
 peace_combine_split.ipynb - Querys tables located in a database on AWS to create a data frame with features and target data to be used for modeling.  Assigns dispute outcomes in five categories ('hostlev' column) as target ('y') values and 9 feature columns to 'X' values and creates test/train split for modeling.
